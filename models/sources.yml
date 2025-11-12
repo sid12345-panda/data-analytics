@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_sample
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF10
+    tables:
+      - name: ORDERS
+      - name: CUSTOMER
+      - name: LINEITEM
